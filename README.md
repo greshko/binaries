@@ -3,7 +3,7 @@
 This repository contains code and datasets associated with the paper:
 
 > Greshko, Michael A. (2026). Two Eccentric, Long-period Eclipsing Binaries from TESS and ATLAS.
-Research Notes of the American Astronomical Society. Forthcoming.
+Submitted to Research Notes of the American Astronomical Society.
   
 ## Abstract
 
@@ -39,7 +39,7 @@ following conditions:
   portions thereof, shall cite the Software and Datasets's original publication:
 
 > Greshko, Michael A. (2026). Two Eccentric, Long-period Eclipsing Binaries from TESS and ATLAS.
-Research Notes of the American Astronomical Society. Forthcoming.
+Submitted to Research Notes of the American Astronomical Society.
   
 THE SOFTWARE AND DATASETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
