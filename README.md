@@ -10,9 +10,9 @@ Research Notes of the American Astronomical Society. Forthcoming.
 While inspecting light curves from the Transiting Exoplanet Survey Satellite (TESS), I found
 two eclipses each in the Sun-like stars TIC 149762453 and TIC 332229223. Combining TESS with
 archival photometry, mainly from the Asteroid Terrestrial-impact Last Alert System, I
-determined their peri- ods: 23.21889±0.00041 days for TIC 149762453, a candidate double-lined
+determined their periods: 23.21889±0.00041 days for TIC 149762453, a candidate double-lined
 spectroscopic binary, and 23.675868 ± 0.000013 days for TIC 332229223. Modeling the eclipses’
-shapes and durations while incorporating Gaia astrometry and radial velocities fromGaia and the
+shapes and durations while incorporating Gaia astrometry and radial velocities from Gaia and the
 Large Sky Area Multi-Object Fiber Spectroscopic Telescope suggests both orbits are highly
 eccentric (e≈0.60 and 0.67).
 
