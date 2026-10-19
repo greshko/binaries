@@ -1,0 +1,20 @@
+{
+ "ra": 246.13052361152322,
+ "dec": 15.155149438483118,
+ "parallax": 2.0769136544129734,
+ "parallax_error": 0.027628770098090172,
+ "ruwe": 1.7388893365859985,
+ "astrometric_excess_noise": 0.2418539971113205,
+ "astrometric_excess_noise_sig": 154.90406799316406,
+ "phot_g_mean_mag": 11.482475280761719,
+ "bp_rp": 0.7261152267456055,
+ "matched_transits": 103.0,
+ "astrometric_n_good_obs_al": 810.0,
+ "source_id": 4464158564734836352,
+ "radial_velocity": -53.41847229003906,
+ "radial_velocity_error": 2.901066780090332,
+ "rv_nb_transits": 54.0,
+ "rv_amplitude_robust": 57.809234619140625,
+ "rv_method_used": 1.0,
+ "grvs_mag": 10.858864784240723
+}

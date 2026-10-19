@@ -1,0 +1,4 @@
+JD,RV,RV_ERR,SOURCE,STAR
+2458531.41405,-134.3,1.5,"LAMOST MRS 726616157, two 1200 s exposures, CCF with ESPRESSO G2 mask, brighter-lined star (BJD_TDB mid)",A
+2458531.41405,28.0,3.0,"LAMOST MRS 726616157, two 1200 s exposures, CCF with ESPRESSO G2 mask, fainter-lined star (BJD_TDB mid)",B
+2458548.28,-55.1,7.0,"LAMOST low resolution, spectrum 732912148, hour assumed (lines blended)",BLEND

@@ -1,0 +1,24 @@
+
+lamost_mrs_1095513103.fits.gz
+  The file has no usable normalised spectrum (LAMOST's own step failed or was skipped),
+  so the script normalised the raw spectrum itself.
+  LAMOST J120939.77+454055.6  (ObsID 1095513103), 6 spectra: B-86375714 (signal-to-noise 5), B-86375736 (signal-to-noise 5), B-86375758 (signal-to-noise 4), R-86375714 (signal-to-noise 6), R-86375736 (signal-to-noise 5), R-86375758 (signal-to-noise 5)
+  Faint (signal-to-noise under 15 per exposure), so the exposures of each arm are averaged: B, 3 exposures (signal-to-noise 8), R, 3 exposures (signal-to-noise 9)
+  Temperature that matches the lines best: about 6000 K
+
+MEASUREMENTS
+  B, 3 exposures 2023-02-07T19:00  velocity   +50.3 km/s   (a second star improves the fit only 1.01 times)
+  R, 3 exposures 2023-02-07T19:00  velocity   +50.1 km/s   (a second star improves the fit only 1.00 times)
+
+RESULT
+  Testing what this spectrum could have shown (B, 3 exposures; a minute or two) ...
+  SINGLE-LINED: one set of lines, at +50.2 km/s (good to about 2 km/s).
+  Adding a second star to the model improves the fit by 18 (in units of the noise). Noise alone,
+  with no second star, gave 11 typically and up to 35 in 16 trials; the bar for a hint is 42.
+  What would have shown: a second star was added to copies of this spectrum and looked for.
+  Found in how many of 4 copies:
+      share of the light   60 km/s apart   100 km/s apart   150 km/s apart
+              25%                0 of 4         1 of 4         0 of 4
+              40%                3 of 4         4 of 4         4 of 4
+  Closer than about 45 km/s, two stars merge into one set of lines whatever their brightness.
+  So this says only that no such star stood apart at this moment; it may still be there.

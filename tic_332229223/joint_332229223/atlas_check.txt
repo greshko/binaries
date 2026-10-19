@@ -1,0 +1,47 @@
+ATLAS DATA
+  filter c: 218 visits, 209 kept; scatter 1.6% per visit (typical quoted error 0.3%); 2 telescope(s)
+  filter o: 1487 visits, 1322 kept; scatter 1.5% per visit (typical quoted error 0.2%); 2 telescope(s)
+  wrote joint_332229223/atlas_c.csv (BJD 2460049 to 2461227)
+  wrote joint_332229223/atlas_o.csv (BJD 2460016 to 2461252)
+
+TRIAL PERIODS (eclipse visits = within 64 minutes of a predicted mid-eclipse; expected depth there about 12.6%)
+       gap/1   733.9527 d     0 visits                            untested
+       gap/2   366.9764 d     0 visits                            untested
+       gap/3   244.6509 d     0 visits                            untested
+       gap/4   183.4882 d     0 visits                            untested
+       gap/5   146.7905 d     0 visits                            untested
+       gap/6   122.3255 d     0 visits                            untested
+       gap/7   104.8504 d     0 visits                            untested
+       gap/8    91.7441 d     3 visits   depth  -0.8 +/-  0.4%    excluded
+       gap/9    81.5503 d     0 visits                            untested
+      gap/10    73.3953 d     0 visits                            untested
+      gap/11    66.7230 d     0 visits                            untested
+      gap/12    61.1627 d     0 visits                            untested
+      gap/13    56.4579 d     4 visits   depth   0.8 +/-  0.4%    excluded
+      gap/14    52.4252 d     0 visits                            untested
+      gap/15    48.9302 d     0 visits                            untested
+      gap/16    45.8720 d     5 visits   depth   0.0 +/-  0.5%    excluded
+      gap/17    43.1737 d     7 visits   depth   0.3 +/-  0.3%    excluded
+      gap/18    40.7752 d     0 visits                            untested
+      gap/19    38.6291 d     0 visits                            untested
+      gap/20    36.6976 d     3 visits   depth  -0.9 +/-  0.4%    excluded
+      gap/21    34.9501 d     0 visits                            untested
+      gap/22    33.3615 d     4 visits   depth   1.4 +/-  0.4%    excluded
+      gap/23    31.9110 d     0 visits                            untested
+      gap/24    30.5814 d     3 visits   depth  -0.8 +/-  0.4%    excluded
+      gap/25    29.3581 d     0 visits                            untested
+      gap/26    28.2290 d     4 visits   depth   0.8 +/-  0.4%    excluded
+      gap/27    27.1834 d     0 visits                            untested
+      gap/28    26.2126 d     2 visits   depth   1.8 +/-  0.5%    untested
+      gap/29    25.3087 d     8 visits   depth   0.4 +/-  0.8%    excluded
+      gap/30    24.4651 d     0 visits                            untested
+      gap/31    23.6759 d     7 visits   depth  12.8 +/-  1.7%    supported
+      gap/32    22.9360 d     5 visits   depth   0.0 +/-  0.5%    excluded
+      gap/33    22.2410 d     4 visits   depth   1.7 +/-  0.6%    excluded
+      gap/34    21.5868 d    11 visits   depth   0.3 +/-  0.2%    excluded
+      gap/35    20.9701 d     4 visits   depth  -0.5 +/-  0.9%    excluded
+      gap/36    20.3876 d     6 visits   depth   3.8 +/-  3.8%    unclear
+  21 untested, 13 excluded, 1 supported, 1 unclear
+
+Saved atlas_check.csv, atlas_fold.png and the light curves in joint_332229223/
+To use the visits in the full analysis as well:  joint_orbit.py ... --extra joint_332229223/atlas_c.csv joint_332229223/atlas_o.csv

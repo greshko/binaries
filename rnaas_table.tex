@@ -1,0 +1,51 @@
+\documentclass[RNAAS]{aastex631}
+\newcommand{\tbd}[1]{\textcolor{red}{#1}}
+\begin{document}
+\title{Table draft}
+\section{}
+Table~\ref{tab:systems}.
+
+\begin{deluxetable}{lcc}
+\tablecaption{Properties of TIC~149762453 and TIC~332229223\label{tab:systems}}
+\tablewidth{0pt}
+\tablehead{\colhead{Property} & \colhead{TIC 149762453} & \colhead{TIC 332229223}}
+\startdata
+\sidehead{\textit{Identification and astrometry (Gaia DR3)}}
+Gaia DR3 source ID & 4464158564734836352 & 1539701971245578240 \\
+R.A., Decl. (deg) & 246.13059, $+15.15514$ & 182.41580, $+45.68215$ \\
+Parallax (mas) & $2.077 \pm 0.028$ & $1.599 \pm 0.014$ \\
+RUWE & 1.74 & 0.96 \\
+Astrometric excess noise (mas) & 0.24 & 0.00 \\
+\sidehead{\textit{Photometry and spectroscopy}}
+$G$, $G_\mathrm{BP}-G_\mathrm{RP}$ (mag) & 11.48, 0.73 & 13.18, 0.84 \\
+$T$ (TESS, mag) & 11.10 & 12.74 \\
+$T_\mathrm{eff}$ (TIC, combined light; K) & 6188 & 5768 \\
+RV, Gaia DR3 (km\,s$^{-1}$) & $-53.4 \pm 2.9$\tablenotemark{a} & $44.0 \pm 3.5$\tablenotemark{b} \\
+RV, LAMOST MRS (km\,s$^{-1}$) & $-134.3$, $+28.0$ (SB2)\tablenotemark{c} & $+46.7$ (single-lined) \\
+\sidehead{\textit{Eclipses (measured)}}
+Period (d) & $23.21889 \pm 0.00041$ & $23.675868 \pm 0.000013$ \\
+Epoch of primary minimum (BJD$_\mathrm{TDB}$) & $2460436.4430 \pm 0.0002$ & $2460377.8059 \pm 0.0002$ \\
+Depth (\%) & $8.3 \pm 0.3$ & $17.96 \pm 0.06$ \\
+Duration (h) & 4.3 & 3.2 \\
+Eclipses observed & TESS S78, S79; ATLAS (7) & TESS S49, S76; ATLAS (2) \\
+Secondary eclipse & not detected (model: none in 96\% of orbits) & not detected (model: none in 97\% of orbits) \\
+\sidehead{\textit{Orbit and components (model-dependent)\tablenotemark{d}}}
+Eccentricity & 0.60 (0.55--0.67) & 0.67 (0.61--0.73) \\
+Eclipsed star mass ($M_\odot$) & 1.12 (1.07--1.16) & 0.99 (0.93--1.02) \\
+Eclipsed star radius ($R_\odot$) & 1.33 (1.19--1.46) & 1.05 (0.93--1.10) \\
+Eclipsed star $T_\mathrm{eff}$ (K) & 6130 (6095--6141) & 6160 (5941--6244) \\
+Companion mass ($M_\odot$) & 1.11 (1.07--1.15) & 0.76 (0.62--0.89) \\
+Companion radius ($R_\odot$) & 1.30 (1.18--1.45) & 0.71 (0.60--0.86) \\
+Companion $T_\mathrm{eff}$ (K) & 6109 (6077--6160) & 5113 (4364--5747) \\
+Companion share of $T$-band light (\%) & 49 (39--60) & 20 (7--43) \\
+Flux ratio, fainter/brighter & 0.77 (0.58--0.88)\tablenotemark{e} & \nodata \\
+Chance the companion is the brighter star (\%) & 50 & 12 \\
+\enddata
+\tablenotetext{a}{TIC 149762453: median of 54 RVS visits, which span a robust range of 58~km\,s$^{-1}$; with two sets of lines this is a blend of both stars.}
+\tablenotetext{b}{TIC 332229223: from the combined spectrum of 21 RVS visits (no per-visit spread published).}
+\tablenotetext{c}{TIC 149762453: two-component fit to the LAMOST medium-resolution spectrum of JD~2458531.41; which set of lines belongs to the eclipsed star is not known.}
+\tablenotetext{d}{Medians with 68\% ranges, from the eclipse's shape and length. Each star's radius, temperature and light follow from its mass on one MIST isochrone fitted to the system's photometry (TIC 149762453: log age 9.66; TIC 332229223: log age 9.61); either star may be the brighter one.}
+\tablenotetext{e}{TIC 149762453: fainter/brighter star in the RP band; the spectroscopic value 0.75~$\pm$~0.12 was used as a constraint.}
+\tablecomments{Measured values carry 1$\sigma$ errors. The depth is the TESS value at mid-eclipse; the duration runs from first to last contact. The epoch is the center of the eclipse's missing light, which agrees with the time of minimum to within its error.}
+\end{deluxetable}
+\end{document}

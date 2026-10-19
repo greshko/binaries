@@ -1,0 +1,9 @@
+{
+ "median_ruwe": 1.0133363008499146,
+ "core_sigma": 0.06504732068181038,
+ "f_outlier": 0.14384508990318118,
+ "n_stars": 723,
+ "aen_median": 0.0,
+ "source": "Gaia DR3, 723 stars within 3.0 deg, G 13.18+/-0.5, BP-RP 0.84+/-0.2, parallax/error > 10",
+ "f_at_or_above_observed": 0.7925311203319502
+}

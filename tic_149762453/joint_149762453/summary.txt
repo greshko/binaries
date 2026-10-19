@@ -1,0 +1,156 @@
+STAR
+  TIC 149762453: radius 1.85 Rsun, mass 1.18 Msun, 6188 K
+  Gaia: distance 481 pc, excess noise 0.242 mas (significance 154.90), RUWE 1.74
+
+MEASURED VELOCITIES
+  JD 2458531.41:  -134.3 +/- 1.5 km/s   star A   (LAMOST MRS 726616157, two 1200 s exposures, CCF with ESPRESSO G2 mask, brighter-lined star (BJD_TDB mid))
+  JD 2458531.41:   +28.0 +/- 3.0 km/s   star B   (LAMOST MRS 726616157, two 1200 s exposures, CCF with ESPRESSO G2 mask, fainter-lined star (BJD_TDB mid))
+  JD 2458548.28:   -55.1 +/- 7.0 km/s   both stars blended   (LAMOST low resolution, spectrum 732912148, hour assumed (lines blended))
+  Stars A and B are the two sets of lines; either could be the one that is eclipsed.
+  Gaia, median of 54 visits (2014-2017): -53.4 km/s (a blend of both stars); visits range over 58 km/s
+
+GAIA, TRANSIT BY TRANSIT
+  Gaia quality flags: 
+    - rv_chisq_pvalue = 0: Gaia's velocities vary
+  Gaia scan law: 99 DR3 transits from gaia_scanlaw.csv
+  RUWE of comparison stars: median 1.344, core spread 0.282, 46.6% above 1.4 (328 stars)
+  25.3% of comparison stars have RUWE as high as this star's 1.74
+
+CATALOGUE VALUES
+  TIC 149762453: RA 246.130594 deg, Dec 15.155141 deg, Tmag 11.098, Teff 6188 K (combined light)
+  Gaia DR3 4464158564734836352: parallax 2.0769 +/- 0.0276 mas, RUWE 1.739, excess noise 0.242 mas, G 11.482, BP-RP 0.726
+  Gaia DR3 velocity: -53.42 +/- 2.90 km/s from 54 visits, method 1, robust amplitude 57.8 km/s
+
+LIGHT CURVES
+  tess_s78.csv: 8743 points, JD 2460434.3 to 2460452.3, point scatter 0.21%  (time: BJD, flux: FLUX)
+    531 usable window positions; typical depth uncertainty 0.15% (errors stretched x6.72)
+  tess_s78_qlp.csv: 5173 points, JD 2460434.3 to 2460449.5, point scatter 0.24%  (time: BJD, flux: FLUX)
+    left out 1.83 days of unreliable data (scatter or brightening far above this light curve's normal): JD 2460444.86-2460445.30, JD 2460445.40-2460445.93, JD 2460446.91-2460447.29, JD 2460447.43-2460447.91
+    520 usable window positions; typical depth uncertainty 0.09% (errors stretched x2.71)
+  tess_s78_raw.csv: 10741 points, JD 2460434.3 to 2460452.3, point scatter 0.21%  (time: BJD, flux: FLUX)
+    655 usable window positions; typical depth uncertainty 0.15% (errors stretched x7.27)
+  tess_s79.csv: 12357 points, JD 2460452.5 to 2460479.7, point scatter 0.18%  (time: BJD, flux: FLUX)
+    754 usable window positions; typical depth uncertainty 0.03% (errors stretched x1.42)
+  tess_s79_qlp.csv: 10384 points, JD 2460452.5 to 2460479.7, point scatter 0.21%  (time: BJD, flux: FLUX)
+    left out 2.38 days of unreliable data (scatter or brightening far above this light curve's normal): JD 2460456.35-2460456.84, JD 2460456.95-2460457.31, JD 2460461.03-2460461.90, JD 2460475.28-2460475.94
+    1052 usable window positions; typical depth uncertainty 0.13% (errors stretched x4.98)
+  tess_s79_raw.csv: 18331 points, JD 2460452.5 to 2460479.7, point scatter 0.20%  (time: BJD, flux: FLUX)
+    1171 usable window positions; typical depth uncertainty 0.13% (errors stretched x6.78)
+  atlas_c.csv: 485 points, JD 2460001.9 to 2461320.7, point scatter 1.15%  (time: BJD, flux: FLUX)
+    too sparse for the sliding window; used night by night (485 visits)
+  atlas_o.csv: 2347 points, JD 2460004.6 to 2461324.7, point scatter 2.19%  (time: BJD, flux: FLUX)
+    too sparse for the sliding window; used night by night (2347 visits)
+    tess_s78_qlp is used only where tess_s78 has nothing to test with: 2.6 days of extra coverage
+    tess_s78_raw is used only where tess_s78 has nothing to test with: 0.2 days of extra coverage
+    tess_s79_qlp is used only where tess_s79 has nothing to test with: 6.7 days of extra coverage
+    tess_s79_raw is used only where tess_s79 has nothing to test with: 2.6 days of extra coverage
+
+KNOWN ECLIPSE in tess_s78: centre JD 2460436.4430, deepest about 8.0%, 4.35% averaged over 4.3 hours
+    mid-eclipse uncertainty 0.3 minutes (1 sigma, from the centre of the missing light; a model fit can place the middle a minute or two differently)
+
+PART B: testing 365,303 periods against every light curve
+    POSSIBLE FURTHER ECLIPSE at JD 2460459.6613 in tess_s79_qlp (4.8% deep, 34.6 sigma). This version of the data is less clean, so it is
+    counted as support only. Look at it; if it is real, run again with --also 3459.661
+    POSSIBLE FURTHER ECLIPSE at JD 2460456.5076 in tess_s79_raw (3.7% deep, 17.5 sigma). This version of the data is less clean, so it is
+    counted as support only. Look at it; if it is real, run again with --also 3456.508
+    atlas_c: 485 survey visits judged night by night (typical error 1.9% per visit)
+    atlas_o: 2347 survey visits judged night by night (typical error 3.8% per visit)
+    second eclipse at JD 2460459.6619 (+/- 0.5 min), given with --also: the period must fit it to within 26 minutes
+    (that eclipse is not also counted as support: a period that puts any other
+    eclipse on data showing none is ruled out, however well it fits the two seen)
+    100.0% of all trial periods are ruled out (94 remain)
+
+STARS: isochrone MIST_v1.2_feh_p0.00_afe_p0.0_vvcrit0.4_UBVRIplus.iso.cmd at log age 9.66 (stellar_split.json); eclipsed star's radius uncertain by 4%
+  measured flux ratio 0.75 +/- 0.12 (fainter/brighter, RP; isochrone RP-band fluxes): companion masses 1.05-1.17 Msun fit it within 3 sigma
+
+PART A: fitting the eclipse's shape for every crossing speed and companion mass
+    fine grid: 51 eclipse lengths from 4.04 to 4.55 hours, 777 impact parameters
+    best fit: chi-squared 619 for 641 points (consistent with the noise); crossing speed 21.5 solar radii per day
+    BEST-FIT ECLIPSE: radius ratio 0.4212, impact parameter 0.9465 stellar radii, crossing speed 11.8141 stellar radii per day, eclipsed star's share of the light 0.9159, length 4.307 hours
+
+PART C: Gaia RUWE 1.74 (99 transits x 8 CCDs, 0.130 mas per CCD; single stars: RUWE 1.344 +/- 0.280 (plus shot noise), 46.6% outliers)
+  orbits predicting RUWE above that (by more than 2x the expected scatter) lose probability
+
+PART E: comparing every orbit with the measured velocities
+    of the periods the photometry leaves open, 90% also fit the velocities
+    (listed in allowed_periods_with_velocities.csv)
+
+PART F: looking for the companion's own eclipse, when it passes behind the star
+    81,600 orbit shapes and orientations tested, against tess_s78, tess_s78_qlp, tess_s78_raw, tess_s79, tess_s79_qlp, tess_s79_raw, atlas_c, atlas_o
+    Before this test, 22% of the probability lay on orbits whose companion eclipse would be deeper than 0.5%
+    and fall where the light curves have data. After it: 0%.
+    Where the companion's own eclipse should be, given everything:
+      no eclipse at all (it passes clear of the star):    96.2%
+      shallower than 0.5%, too faint to see:              3.3%
+      visible, but falls where there are no data:          0.0%
+      visible where there are data:                        0.4%
+    If it happens: about 1.88 days before the known eclipse (68%: 1.77 to 2.04 days; 74% before, otherwise as far after)
+    and 0.08% deep (68%: 0.03 to 0.22%).
+    Eccentricity before this test 0.62 (68%: 0.55 to 0.78); after 0.60 (68%: 0.55 to 0.67)
+
+RESULTS
+  (medians, with 68% and 95% ranges. Periods are on a coarse map; the exact period is under CANDIDATE PERIODS.)
+  eclipse shape and geometry only
+      period          24.3 days   (68%: 12.5 to 90.4;  95%: 10.3 to 395.0)
+      mass            1.11 Msun   (68%: 1.07 to 1.15;  95%: 1.03 to 1.20)
+      radius          1.28 Rsun   (68%: 1.17 to 1.44;  95%: 1.09 to 1.70)   = 12.5 Jupiter radii
+  plus missing eclipses (TESS, SuperWASP, Gaia photometry)
+      period          23.1 days   (68%: 22.6 to 23.7;  95%: 22.4 to 23.9)
+      mass            1.11 Msun   (68%: 1.07 to 1.15;  95%: 1.03 to 1.20)
+      radius          1.28 Rsun   (68%: 1.17 to 1.44;  95%: 1.09 to 1.70)   = 12.5 Jupiter radii
+  plus Gaia astrometry
+      period          23.1 days   (68%: 22.6 to 23.7;  95%: 22.4 to 23.9)
+      mass            1.11 Msun   (68%: 1.07 to 1.15;  95%: 1.03 to 1.20)
+      radius          1.28 Rsun   (68%: 1.17 to 1.44;  95%: 1.09 to 1.70)   = 12.5 Jupiter radii
+  plus measured velocities
+      period          23.1 days   (68%: 22.6 to 23.7;  95%: 22.4 to 23.9)
+      mass            1.11 Msun   (68%: 1.07 to 1.15;  95%: 1.04 to 1.20)
+      radius          1.29 Rsun   (68%: 1.18 to 1.45;  95%: 1.11 to 1.70)   = 12.6 Jupiter radii
+  plus the companion's own eclipse (all evidence)
+      period          23.1 days   (68%: 22.6 to 23.7;  95%: 22.4 to 23.9)
+      mass            1.11 Msun   (68%: 1.07 to 1.15;  95%: 1.04 to 1.20)
+      radius          1.30 Rsun   (68%: 1.18 to 1.45;  95%: 1.12 to 1.70)   = 12.6 Jupiter radii
+  the eclipsed star, once the companion's share of the TESS-band light (49%, 68%: 39 to 60) is taken out:
+      MAIN STAR: mass 1.121 Msun, radius 1.332 Rsun   (68%: 1.07 to 1.16 Msun, 1.19 to 1.46 Rsun; catalogue 1.18 Msun, 1.85 Rsun)
+      companion radius 1.296 Rsun (68%: 1.18 to 1.45)
+      temperatures: eclipsed star 6130 K (68%: 6095 to 6141), companion 6109 K (68%: 6077 to 6160); companion's TESS-band light share 0.4868
+      flux ratio fainter/brighter in RP: 0.77 (68%: 0.58 to 0.88); measured 0.75 +/- 0.12
+      the companion is the brighter star in 50% of the probability: the eclipse may be of the fainter star; spectra would tell
+  RUWE this binary alone would give: 1.348 (68%: 1.345 to 1.359); Gaia measured 1.74.
+
+ECCENTRICITY
+  The companion crossed 1.7 times faster than a circular orbit would (68%: 1.6 to 1.8).
+  Eccentricity 0.60 (68%: 0.55 to 0.67; 95% of the probability lies above 0.51).
+  Closest approach comes before the eclipse (probability 98%, from the velocities and the companion's own eclipse).
+  Representative orbit (the median eccentricity, at its most probable speed): eccentricity 0.59, crossing 1.81 times faster than circular, closest approach 0.55 days before the eclipse.
+  A circular orbit at any period still open fits worse by chi-squared more than 1000 - effectively ruled out.
+
+WHAT THIS PREDICTS
+  Chance the eclipse is grazing (only part of the companion crosses the star): 100%
+  Velocity swing of the star: at least 49 km/s (68%: 48 to 49; larger if eccentric)
+  Wobble on the sky: 0.03 mas (68%: 0.01 to 0.05)
+  Chance that one 27-day TESS sector catches an eclipse: 100%
+  The period ranges above are envelopes. Inside them, only the periods listed below remain open.
+
+CANDIDATE PERIODS
+  The eclipse at --t0 and the one at JD 2460459.6619 are 23.2189 days apart (give or take 0.6 minutes),
+  so the period is that gap divided by a whole number.
+  Whole numbers 1 to 2 give periods between --min-period and --max-period. 1 of them remains;
+  each of the others would put another eclipse on data that show none.
+  Still open: divide by 1   (periods 23.22 to 23.22 days)
+  The most probable, given the eclipse's shape, the chance of alignment, Gaia's astrometry, the velocities and the companion's own eclipse:
+      divide by   period (days)   probability
+              1         23.2189        100.0%
+  (all in candidate_periods.csv)
+  TESS sectors still to come for this star, with eclipses predicted from the gap / 1 period (23.21889 +/- 0.00041 d):
+      sector 117 (around 2027 May): BJD 2461550.9497 +/- 0.0197
+      sector 130 (around 2028 May): BJD 2461899.2331 +/- 0.0258
+      sector 131 (around 2028 Jun): BJD 2461922.4520 +/- 0.0262
+
+  Divide by 1: puts an eclipse on a possible further eclipse reported above.
+  If that dip is real, the others below are wrong; give its time with --also to apply it.
+
+MOST PROBABLE SYSTEM (one system that all the evidence favours; system_view.py draws it)
+  orbit: period 23.21889 d, eccentricity 0.594, crossing 1.811 times faster than circular, closest approach 0.56 days before the eclipse
+  main star: mass 1.144 Msun, radius 1.498 Rsun, 6141 K; companion: mass 1.088 Msun, radius 1.307 Rsun, 6096 K
+  its eclipse: radius ratio 0.8727, impact parameter 1.3413 stellar radii, crossing speed 14.6462 stellar radii per day, eclipsed star's share of the light 0.5721, length 4.283 hours; fits the eclipse worse than the best fit by chi-squared 3.4
